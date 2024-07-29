@@ -1,0 +1,26 @@
+.bodySectOne {
+    position: absolute;
+    width: 32rem;
+    height: 40rem;
+    top: 75%;
+    left: 27.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bodySectTwo {
+    position: absolute;
+    border: 6px solid;
+    border-image: linear-gradient(var(--angle), #8aeba9, #82c09f, #7a9494, #8b8895, #9b7b96, #bc7d8a, #de8891, #ff9397, #ff9a80, #ffa780) 1; 
+    height: 34rem;
+    width: 21rem;
+    animation: 10s rotate linear infinite;
+    -webkit-animation: 10s rotate linear infinite;
+    -moz-animation: 10s rotate linear infinite;
+    -z-animation: 10s rotate linear infinite;
+    -o-animation: 10s rotate linear infinite;
+    top: 53%;
+    left: 75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

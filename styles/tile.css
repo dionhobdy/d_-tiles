@@ -1,0 +1,48 @@
+.gradient {
+    background: rgb(255,255,255);
+    background: linear-gradient(181deg, rgba(0,0,0,0) 35%, rgb(0, 0, 0, 0) 100%); 
+    height: 20.75rem;
+    width: 100%;
+    margin-top: -24.1rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.picture {
+    align-self: center;
+    height: 100%;
+}
+
+.tile {
+    background-color: #1d1d1d;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    color: #f3f3f3ee;
+    font-size: 3rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: -8rem;
+    margin-left: .5rem;
+    position: absolute;
+    z-index: 3;
+    text-shadow: 2.5px 2px 2px #1d1d1d;
+}
+
+.title2 {
+    color: #f3f3f3ee;
+    font-size: 2.25rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: -8rem;
+    margin-left: .5rem;
+    position: absolute;
+    z-index: 3;
+    text-shadow: 2px 1.5px 1.5px #1d1d1d;
+}

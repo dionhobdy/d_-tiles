@@ -1,0 +1,56 @@
+.button {
+    background-color: #2c2c2c;
+    display: inline-block;
+    filter: drop-shadow(2px 2px 2px #111111);
+    height: 2.5rem;
+    width: 3rem;
+    transition: .05s ease-in-out all;
+    --angle: 0deg;
+    border: 2px solid;
+    border-image: linear-gradient(var(--angle), #8aeba9, #82c09f, #7a9494, #8b8895, #9b7b96, #bc7d8a, #de8891, #ff9397, #ff9a80, #ffa780) 1; 
+    animation: 30s rotate linear infinite;
+    -webkit-animation: 10s rotate linear infinite;
+    -moz-animation: 10s rotate linear infinite;
+    -z-animation: 10s rotate linear infinite;
+    -o-animation: 10s rotate linear infinite;
+    margin-left: 10px;
+}
+
+input[type=button] {
+    color: #f3f3f3;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 1.5rem;
+    opacity: 1;
+}
+
+.submitButton {
+    background-color: #2c2c2c;
+    display: inline-block;
+    filter: drop-shadow(2px 2px 2px #111111);
+    height: 3rem;
+    width: 25rem;
+    margin-top: 50px;
+    transition: .05s ease-in-out all;
+    --angle: 0deg;
+    border: 3px solid;
+    border-image: linear-gradient(var(--angle), #8aeba9, #82c09f, #7a9494, #8b8895, #9b7b96, #bc7d8a, #de8891, #ff9397, #ff9a80, #ffa780) 1; 
+    animation: 30s rotate linear infinite;
+    -webkit-animation: 10s rotate linear infinite;
+    -moz-animation: 10s rotate linear infinite;
+    -z-animation: 10s rotate linear infinite;
+    -o-animation: 10s rotate linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+ @property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}

@@ -1,0 +1,95 @@
+.copy {
+    content:url('../assets/copy.png');
+    display: inline-block;
+    filter: drop-shadow(3px 3px 2px #111111);
+    height: 2rem;
+    width: 2rem;
+    margin-left: -160px;
+    opacity: .5;
+}
+
+.connect {
+    content:url('../assets/connect.png');
+    display: inline-block;
+    filter: drop-shadow(3px 3px 2px #111111);
+    height: 2rem;
+    width: 2rem;
+    margin-left: 10px;
+    opacity: .5;
+}
+
+.connect::selection {
+    opacity: 1;
+}
+
+.disconnect {
+    content:url('../assets/disconnect.png');
+    display: inline-block;
+    filter: drop-shadow(5px 5px 2px #111111);
+    height: 2rem;
+    width: 2rem;
+    margin-left: 10px;
+    opacity: .5;
+}
+
+.portIndicator {
+    display: inline-block;
+    color: #f3f3f3;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1.1rem;
+    margin-top: 90px;
+    margin-left: 65px;
+}
+
+.portNotif0 {
+    color: #f3f3f3;
+    display: inline-block;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-left: 190px;
+    opacity: 0;
+}
+
+.portNotif1 {
+    color: #f3f3f3;
+    display: inline-block;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-left: -65px;
+    opacity: 0;
+}
+
+.portNotif2 {
+    color: #f3f3f3;
+    display: inline-block;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-left: -105px;
+    opacity: 0;
+}
+
+.portNumber {
+    display: inline-block;
+    color: #f3f3f3;
+    border: 3px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(var(--angle), #8aeba9, #82c09f, #7a9494, #8b8895, #9b7b96, #bc7d8a, #de8891, #ff9397, #ff9a80, #ffa780) 1; 
+    animation: 10s rotate linear infinite;
+    -webkit-animation: 10s rotate linear infinite;
+    -moz-animation: 10s rotate linear infinite;
+    -z-animation: 10s rotate linear infinite;
+    -o-animation: 10s rotate linear infinite;
+    color: linear-gradient(#8aeba9, #82c09f, #7a9494, #8b8895, #9b7b96, #bc7d8a, #de8891, #ff9397, #ff9a80, #ffa780) 1; 
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1.5rem;
+}

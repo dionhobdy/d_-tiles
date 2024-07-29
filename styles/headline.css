@@ -1,0 +1,38 @@
+.headline {
+    margin-top: 12px;
+    margin-left: 12px;
+    user-select: none;
+}
+
+.headlineBorder {
+    border: 2px solid;
+    border-image: linear-gradient(var(--angle), #8aeba9, #82c09f, #7a9494, #8b8895, #9b7b96, #bc7d8a, #de8891, #ff9397, #ff9a80, #ffa780) 1; 
+    animation: 30s rotate linear infinite;
+    height: 1.5rem;
+    width: 3.7rem;
+    animation: 10s rotate linear infinite;
+    -webkit-animation: 10s rotate linear infinite;
+    -moz-animation: 10s rotate linear infinite;
+    -z-animation: 10s rotate linear infinite;
+    -o-animation: 10s rotate linear infinite;
+}
+
+.headlineOne {
+    color: #f3f3f3;
+    font-size: .75rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: 4.5px;
+    margin-right: 35px;
+}
+
+.headlineTwo {
+    color: #f3f3f3;
+    font-size: .80rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-top: -22px;
+    margin-left: 9px;
+}
