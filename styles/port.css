@@ -5,7 +5,11 @@
     height: 2rem;
     width: 2rem;
     margin-left: -160px;
-    opacity: .5;
+    opacity: .75;
+}
+
+.copy:active, .connect:active, .disconnect:active {
+    opacity: 1;
 }
 
 .connect {
@@ -15,11 +19,7 @@
     height: 2rem;
     width: 2rem;
     margin-left: 10px;
-    opacity: .5;
-}
-
-.connect::selection {
-    opacity: 1;
+    opacity: .75;
 }
 
 .disconnect {
@@ -29,7 +29,7 @@
     height: 2rem;
     width: 2rem;
     margin-left: 10px;
-    opacity: .5;
+    opacity: .75;
 }
 
 .portIndicator {

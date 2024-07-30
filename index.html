@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
         <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +9,7 @@
     
         <title>D_ Tiles</title>
 
+        <!-- Local Style Sheets -->
         <link rel="stylesheet" href="./styles/buttons.css">
         <link rel="stylesheet" href="./styles/form.css">
         <link rel="stylesheet" href="./styles/headline.css">
@@ -18,6 +18,13 @@
         <link rel="stylesheet" href="./styles/styles.css">
         <link rel="stylesheet" href="./styles//tile.css">
         <link rel="stylesheet" href="./styles/titlebar.css">
+
+        <!-- jQuery CDN -->
+        <script
+			  src="https://code.jquery.com/jquery-3.7.1.js"
+			  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+			  crossorigin="anonymous"></script>
+		
     </head>
   <body>
     <div class="titlebar">
@@ -60,6 +67,7 @@
                 <input type="button" class="submitButton" value="GENERATE">
             </form>
         </div>
+        <!-- Section Two contains the elements of the tile the user generates-->
         <div class="bodySectTwo" style="margin-top: 50px;">
             <div class="tile">
                 <img src="" class="picture">
